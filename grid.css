@@ -1,0 +1,14 @@
+.galleryImages{
+  display:grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns: repeat(auto-fit, 350px);
+}
+
+.galleryImages > img{
+  border:#242423 solid 3px;
+  width:75%;
+  height:75%;
+  margin:3%;
+  overflow:hidden;
+}

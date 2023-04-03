@@ -1,0 +1,8 @@
+div{
+  float:left;
+}
+
+#abstractImages > img{
+  border:#242423 solid 2px;
+  margin:1%;
+}

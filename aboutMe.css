@@ -1,0 +1,38 @@
+.frontPageBox{
+  background:#E8EDDF;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  align-content:center;
+  justify-content:center;
+  border:#242423 double 5px;
+  width:45%;
+  height:100%;
+  margin:1%;
+}
+
+.imageBox{
+  display:flex;
+  flex-direction:row-reverse;
+  align-content:center;
+  justify-content:flex-start;
+  margin:1%;
+}
+
+main{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-content:center;
+  justify-content:center;
+}
+
+.imageBox > img{
+  height:90%;
+  width:90%;
+  margin-right:1%;
+}
+
+p{
+  font-size:1vw;
+}

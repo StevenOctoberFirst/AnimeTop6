@@ -1,0 +1,37 @@
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.frontPageBox{
+  background:#E8EDDF;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  align-content:center;
+  justify-content:center;
+  border:#242423 double 5px;
+  width:50%;
+  margin:3%;
+}
+
+label{
+  margin-top:3%
+}
+
+input[type=submit] {
+  background:#F5CB5C;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top:3%;
+  margin-bottom:3%;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+input[type=submit]:hover {
+  background:#d0ad4e;
+}

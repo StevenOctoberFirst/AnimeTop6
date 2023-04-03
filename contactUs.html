@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang=en>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <script src="contact.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/websiteIcon.png">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="images/logo.png" alt="logo">
+        <div class="dropdown">
+          <img src="images/dropdown.png" alt="dropdown">
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="aboutMe.html">About Me</a>
+          <a href="galleryOne.html">Painting Prints</a>
+          <a href="galleryTwo.html">Photo Manipulations</a>
+          <a href="galleryThree.html">Abstract and Surreal</a>
+          <a href="galleryFour.html">Original Oil Painting</a>
+          <a href="contactUs.html">Contact Us</a>
+        </div>
+      </div>
+      </nav>
+    </header>
+  
+    <main>
+      <form class="frontPageBox" action="myAction.pfp">
+        <h2>Would you like to Contact Us?</h2>
+        <label for="firstAndLast">First Name and Last Name:</label>
+        <input type="text" name="firstAndLast" placeholder="Enter your name..." id="firstAndLast">
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email..." id="email">
+        <label for="painting">Title of Painting:</label>
+        <input type="text" name="painting" placeholder="Enter the title..." id="painting">
+        <label for="textArea">Extra Notes:</label>
+        <textarea name="textArea" placeholder="Enter your notes..." id="textArea"></textarea>
+        <input type="submit">
+      </form>
+    </main>
+  
+    <footer>
+      <p>Steven Barnes - YOG: 2025</p>
+    </footer>
+  </body>
+</html>

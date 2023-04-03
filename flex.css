@@ -1,0 +1,32 @@
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+#photoManipulations > img{
+  border:#242423 solid 2px;
+  margin:1%;
+  width:15%;
+  height:15%;
+}
+
+#oilPaintings > img{
+  border:#242423 solid 2px;
+  margin:1%;
+  width:14%;
+  height:14%;
+}
+
+@media screen and (max-width: 800px){
+  #photoManipulations > img{
+    width:50%;
+    height:50%;
+  }
+  #oilPaintings > img{
+    width:50%;
+    height:50%;
+  }
+}
